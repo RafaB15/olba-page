@@ -1,9 +1,7 @@
-import Logo from "./Logo";
-
-const MenuBar = () => {
+const MenuBar = ({logo_path}) => {
     return(
         <div className='menu-bar'>
-            <Logo />
+            <img src={logo_path} alt="menu-logo" />
             <ul className='menu-items'>
                 <li>Home</li>
                 <li>About</li>
