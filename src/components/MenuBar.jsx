@@ -1,3 +1,5 @@
+import '../styles/MenuBar.css';
+
 const MenuBar = ({logo_path}) => {
     return(
         <div className='menu-bar'>
