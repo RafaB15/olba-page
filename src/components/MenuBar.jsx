@@ -1,7 +1,7 @@
 const MenuBar = ({logo_path}) => {
     return(
         <div className='menu-bar'>
-            <img src={logo_path} alt="menu-logo" className="menu-logo"/>
+            <img src={logo_path} className="menu-logo"/>
             <ul className='menu-items'>
                 <li className="menu-item">Home</li>
                 <li className="menu-item">About</li>

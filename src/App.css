@@ -1,5 +1,5 @@
 body {
-    background-color: #232625;
+    background-color: #fd6921;
     margin: 0;
     padding: 0;
 }
@@ -9,7 +9,9 @@ body {
     align-items: center; /*Aligns items vertically to the center*/
     justify-content: space-between; /*Evenly distributes space between children, putting the logo to the left*/
     padding: 20px 40px; /*Padding on the top and bottom, and left and right*/
-    background-color: #000000;
+    height: 13vh; /*10% of the viewport height*/
+    font-family: sans-serif;
+    background-color: #131316;
     color: #ffffff;
 }
 
@@ -21,4 +23,9 @@ body {
 
 .menu-item {
     cursor: pointer; /*Changes the cursor to a pointer when hovering over the list items*/
+}
+
+.menu-logo {
+    max-height: 100%;
+    width: auto;
 }
