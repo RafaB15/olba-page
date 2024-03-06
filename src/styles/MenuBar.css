@@ -1,0 +1,27 @@
+.menu-bar {
+    display: flex; /*Makes it so that items can be displayed horizontally*/
+    align-items: center; /*Aligns items vertically to the center*/
+    justify-content: space-between; /*Evenly distributes space between children, putting the logo to the left*/
+    padding: 20px 40px; /*Padding on the top and bottom, and left and right*/
+    height: 13vh; /*10% of the viewport height*/
+    font-family: sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #131316;
+    color: #ffffff;
+}
+
+.menu-items {
+    list-style-type: none; /*Removes the bullet points from the list*/
+    display: flex; /*Makes it so that items can be displayed horizontally*/
+    gap: 20px; /*Adds space between the items*/
+}
+
+.menu-item {
+    cursor: pointer; /*Changes the cursor to a pointer when hovering over the list items*/
+}
+
+.menu-logo {
+    max-height: 100%;
+    width: auto;
+}
