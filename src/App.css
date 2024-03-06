@@ -1,0 +1,13 @@
+body {
+    background-color: #232625;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar {
+    display: flex; /*Makes it so that items can be displayed horizontally*/
+    align-items: center; /*Aligns items vertically to the center*/
+    justify-content: space-between; /*Evenly distributes space between children, putting the logo to the left*/
+    background-color: #000000;
+    color: #ffffff;
+}
