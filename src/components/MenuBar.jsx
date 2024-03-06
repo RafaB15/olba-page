@@ -1,12 +1,12 @@
 const MenuBar = ({logo_path}) => {
     return(
         <div className='menu-bar'>
-            <img src={logo_path} alt="menu-logo" />
+            <img src={logo_path} alt="menu-logo" className="menu-logo"/>
             <ul className='menu-items'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Contact</li>
+                <li className="menu-item">Home</li>
+                <li className="menu-item">About</li>
+                <li className="menu-item">Services</li>
+                <li className="menu-item">Contact</li>
             </ul>
         </div>
     )
