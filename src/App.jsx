@@ -1,5 +1,6 @@
 import MenuBar from './components/MenuBar'
 import FrontPageHeader from './components/FrontPageHeader'
+import Presentation from './components/Presentation'
 
 import './App.css'
 
@@ -8,6 +9,7 @@ function App() {
     <div className='App'>
       <MenuBar logo_path={"/src/images/olba_logo.png"} />
       <FrontPageHeader />
+      <Presentation />
     </div>
   )
 }
