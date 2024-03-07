@@ -1,11 +1,33 @@
-.front-page-header {
-    text-align: center;
-    font-family: sans-serif;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 10%;
-    font-weight: bold;
+.image-background {
+    position: relative; /* This sets the positioning context for child elements. */
+    width: 100%; /* This makes the image cover the entire width of the container. */
+    height: auto; /* This makes the image scale proportionally. */
+    background-size: cover; /* This makes the image cover the entire container. */
+    background-position: center; /* This centers the image. */
 }
+
+.image-background::before {
+    content: ""; /* This creates a pseudo-element. */
+    position: absolute; /* This sets the positioning context for the pseudo-element. */
+    top: 0; /* This positions the pseudo-element at the top of the container. */
+    left: 0; /* This positions the pseudo-element at the left of the container. */
+    width: 100%; /* This makes the pseudo-element cover the entire width of the container. */
+    height: 100%; /* This makes the pseudo-element cover the entire height of the container. */
+    background-color: rgba(137, 220, 229, 0.5); /* This sets the background color of the pseudo-element. */
+}
+
+.front-page-header {
+    position: relative; /* This sets the positioning context for child elements. */
+    z-index: 1; /* This sets the stacking order of the element. */
+    text-align: center; /* This centers the text. */
+    font-family: sans-serif; /* This sets the font. */
+    padding-left: 20%; /* This adds space to the left of the text. */
+    padding-right: 20%; /* This adds space to the right of the text. */
+    padding-top: 10%; /* This adds space to the top of the text. */
+    padding-bottom: 10%; /* This adds space to the bottom of the text. */
+    font-weight: bold; /* This makes the text bold. */
+}
+
 
 .front-page-header .main-title {
     font-size: 5rem;

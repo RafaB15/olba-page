@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   return (
     <div className='App'>
-      <MenuBar logo_path={"olba_logo.png"} />
+      <MenuBar logo_path={"/src/images/olba_logo.png"} />
       <FrontPageHeader />
     </div>
   )
